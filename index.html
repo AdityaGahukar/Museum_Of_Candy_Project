@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <title>Museum of Candy</title>
+</head>
+
+<body>
+  <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">CANDY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+        aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">TICKETS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid px-0">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+          <!-- d-none = display none which means that before the large breakpoint the text will be hidden -->
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="imgs/hand2.png" alt="#" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid px-0">
+
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <!-- Till the medium breakpoint the order of the image will me 2nd and after the medium breakpoint the order will swap -->
+        <!-- This is because we want the text above the image on a small screen (before the medium breakpoint) -->
+        <img src="imgs/milk.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <!-- justify content for horizontal alignment -->
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <!-- for large and above use 8 units space out of 12 (12 units inside 6 units), otherwise use 10 units space -->
+            <!-- "mb-5 mb-md-0" means that we want margin bottom to be 5 units will we hit the medium breakpoint and 0 margin bottom after the medium breakpoint -->
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <!-- The icon will appear only after the large breakpoint (otherwise it will be hidden) -->
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+              beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <!-- justify content for horizontal alignment -->
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <!-- for large and above use 8 units space out of 12 (12 units inside 6 units), otherwise use 10 units space -->
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <!-- The icon will appear only after the large breakpoint (otherwise it will be hidden) -->
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+              beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="imgs/gumball.png" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <!-- Till the medium breakpoint the order of the image will me 2nd and after the medium breakpoint the order will swap -->
+        <!-- This is because we want the text above the image on a small screen (before the medium breakpoint) -->
+        <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <!-- justify content for horizontal alignment -->
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <!-- for large and above use 8 units space out of 12 (12 units inside 6 units), otherwise use 10 units space -->
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <!-- The icon will appear only after the large breakpoint (otherwise it will be hidden) -->
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+              beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+
+</body>
+
+</html>
